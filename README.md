@@ -23,10 +23,6 @@ Basic API Server where we write some middleware and practice deployment. Tested 
 .env requirements (where applicable)
 not necessary for this lab
 
-How to initialize/run your application (where applicable)
-e.g. npm start
-
-
 
 Features / Routes
 
