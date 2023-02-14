@@ -13,9 +13,10 @@ Basic API Server where we write some middleware and practice deployment. Tested 
 
 #### Dev back-end server url
 
-[ci/cd](https://four01-lab01.onrender.com)
+[ci/cd - backend server url - dev branch](https://four01-lab01.onrender.com)
 
 #### Prod back-end server url
+[ci/cd - backend server url - prod](https://lab01-prod.onrender.com)
 
 
 #### Setup
@@ -25,11 +26,12 @@ not necessary for this lab
 How to initialize/run your application (where applicable)
 e.g. npm start
 
-How to use your library (where applicable)
+
 
 Features / Routes
 
-Feature One: Deploy as Dev Branch once ci/cd works.
+ Deploy as Dev Branch once ci/cd works.
+ Merge dev branch into main.
 
 #### Tests
 
