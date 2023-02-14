@@ -6,6 +6,6 @@ module.exports = (err, req, res, next) => {
     route: req.path,
     query: req.query,
     body: req.body,
-    message:` Sorry, something went wrong - Server Error : ${err}`,
+    message:`Sorry, something went wrong - Server Error : ${err}`,
   });
 };
