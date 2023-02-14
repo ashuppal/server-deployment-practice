@@ -10,5 +10,22 @@ describe('API server', () => {
     expect(response.text).toBeTruthy();
     // expect(response.text).toBe('this is a log');
   });
+
+  it('handles the bad path',async()=>{
+    const response = await mockRequest.get('/bad');
+    expect(response.status).toEqual(500);
+    expect(response.body.route).toEqual('/bad');
+  },
+  );
+
+  it('handles the 404 path',async()=>{
+    const response = await mockRequest.get('/path-not-found');
+    expect(response.status).toBe(404);
+  },
+  );
+
+
 });
+
+
 
