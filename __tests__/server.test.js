@@ -19,7 +19,7 @@ describe('API server', () => {
   );
 
   it('handles the 404 path',async()=>{
-    const response = await mockRequest.get('/404');
+    const response = await mockRequest.get('/path-not-found');
     expect(response.status).toBe(404);
   },
   );
